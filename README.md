@@ -424,3 +424,6 @@ Special thanks to the open-source community whose tools made this possible:
 > "The best way to predict the future is to invent it." - Alan Kay
 
 **P.S.** - If you made it this far, you're exactly the kind of detail-oriented person I'd love to work with! 🚀
+
+need to make this fast
+
