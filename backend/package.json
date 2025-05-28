@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "PodSync backend server",
   "main": "index.js",
-  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "Vivek Jami",
@@ -13,6 +15,7 @@
   "type": "commonjs",
   "dependencies": {
     "bcryptjs": "^3.0.2",
+    "bull": "^4.16.5",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
@@ -21,7 +24,9 @@
     "mongoose": "^8.15.0",
     "morgan": "^1.10.0",
     "multer": "^2.0.0",
-    "socket.io": "^4.8.1"
+    "openai": "^4.103.0",
+    "socket.io": "^4.8.1",
+    "tus-node-server": "^0.9.0"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
